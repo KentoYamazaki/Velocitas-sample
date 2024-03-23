@@ -36,6 +36,7 @@ logger = logging.getLogger(__name__)
 GET_SPEED_REQUEST_TOPIC = "sampleapp/getSpeed"
 GET_SPEED_RESPONSE_TOPIC = "sampleapp/getSpeed/response"
 DATABROKER_SUBSCRIPTION_TOPIC = "sampleapp/currentSpeed"
+# Trigger CI workflow
 
 
 class SampleApp(VehicleApp):
